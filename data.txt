@@ -119,3 +119,4 @@ Data={"sensorId":1,"data-0":374,"data-1":402,"data-2":404,"data-3":409,"data-4":
 Data={"sensorId":1,"data-0":362,"data-1":395,"data-2":403,"data-3":420,"data-4":396,"data-5":358}
 Data={"sensorId":1,"data-0":342,"data-1":354,"data-2":314,"data-3":278,"data-4":236,"data-5":239}
 Data={"sensorId":1,"data-0":243,"data-1":258,"data-2":285,"data-3":355,"data-4":383,"data-5":427}
+LIAUF LIAug fliauewg
