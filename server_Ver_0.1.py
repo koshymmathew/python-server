@@ -36,7 +36,7 @@ class ServerHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
                      })
         
  
-        #self.send_response( 200 )
+       
         length = int(self.headers.getheader('content-length'))        
         data_string = self.rfile.read(length)
         print data_string
@@ -61,6 +61,6 @@ Handler = ServerHandler
 
 httpd = SocketServer.TCPServer(("", PORT), Handler)
 
-print "@rochacbruno Python http server version 0.1 (for testing purposes only)"
+print " Python http server version 0.1 (for testing purposes only)"
 print "Serving at: http://%(interface)s:%(port)s" % dict(interface=I or "localhost", port=PORT)
 httpd.serve_forever()
